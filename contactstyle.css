@@ -294,4 +294,8 @@ h1{
   .contact-form{
     width: 280px;
   }
+  body{
+    height: 700px;
+    width: 300px;
+  }
 }
