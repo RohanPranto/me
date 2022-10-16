@@ -134,8 +134,8 @@ nav .nav-list li.btn:hover a {
 .w3-wide{
   margin-bottom: 0;
 }
-.skillo{
-  transition: .4s;
+.w3-dark-grey{
+  border: 2px solid #2ecc71;
 }
 /* ABOUT */
 /* media */
