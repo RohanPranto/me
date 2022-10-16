@@ -134,6 +134,9 @@ nav .nav-list li.btn:hover a {
 .w3-wide{
   margin-bottom: 0;
 }
+/* .skillo{
+  filter: drop-shadow(3px 3px 3px grey);
+} */
 .w3-dark-grey{
   border: 2px solid #2ecc71;
 }
@@ -207,8 +210,17 @@ nav .nav-list li.btn:hover a {
     right: 0;
   }
 
-  .hero {
+  /* .hero {
     width: 160%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(background.jpg);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+  } */
+  .hero {
+    width: 105%;
     height: 100%;
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(background.jpg);
@@ -223,8 +235,16 @@ nav .nav-list li.btn:hover a {
   .aboutme p{
     width: 47%;
     font-weight: normal;
+    font-size: 70%;
   }
+.aboutme{
+    height: 400px;
+    width: 700px;
+}
+.aboutme h1{
+  font-size: 240%;
+}
 .skillo{
-  width: 50%;
+  width: 45%;
 }
 }
